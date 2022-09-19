@@ -16,7 +16,7 @@ lang: de_DE
 
 - Darunter das Buch "Clean Code: A Handbook of Agile Software Craftsmanship"
 
-# A Handbook of Agile Software Craftsmanship
+# Clean Code: A Handbook of Agile Software Craftsmanship
 
 ![Clean Code (Quelle: `stancalau.ro`)](./clean-code.jpg){ width=50% }
 
