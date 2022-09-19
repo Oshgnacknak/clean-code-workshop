@@ -8,8 +8,11 @@ lang: de_DE
 
 # Robert "Uncle Bob" C. Martin
 
-![Robert C. Martin](./uncle-bob.jpg){ width=50% }
+![Robert C. Martin (Quelle: Wikipedia)](./uncle-bob.jpg){ width=50% }
 
 - Geboren am 5. Dezember 1952
 
-- Author des Buchs "Clean Code: A Handbook of Agile Software Craftsmanship"
+- Author einiger Bücher zu den Themen Programmieren, Architektur und Design.
+
+- Darunter das Buch "Clean Code: A Handbook of Agile Software Craftsmanship"
+
