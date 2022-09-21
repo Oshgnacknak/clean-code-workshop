@@ -1,3 +1,3 @@
 
 clean-code-workshop.pdf: clean-code-workshop.md
-	pandoc --to beamer -o $@ $<
+	pandoc --pdf-engine lualatex --to beamer -o $@ $<
