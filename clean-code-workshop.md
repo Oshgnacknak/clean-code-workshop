@@ -17,7 +17,7 @@ lang: de_DE
 :::: column
 - Geboren am 5. Dezember 1952
 
-- Author einiger Bücher zu den Themen Programmieren, Architektur und Design.
+- Autor einiger Bücher zu den Themen Programmieren, Architektur und Design.
 
 - Darunter das Buch "Clean Code: A Handbook of Agile Software Craftsmanship"
 ::::
@@ -37,3 +37,8 @@ lang: de_DE
 ::::
 
 :::
+
+# Was ist guter Code überhaupt?
+
+![wtf indeed](wtfm.jpg){ width=65% }
+
