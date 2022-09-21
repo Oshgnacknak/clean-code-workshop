@@ -2,7 +2,7 @@
 title: Clean Code
 author: Oshgnacknak
 date: \today
-colortheme: default
+theme: simple
 lang: de_DE
 ---
 
