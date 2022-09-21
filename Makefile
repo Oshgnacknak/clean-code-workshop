@@ -1,3 +1,3 @@
 
 clean-code-workshop.pdf: clean-code-workshop.md
-	pandoc --pdf-engine lualatex --to beamer -o $@ $<
+	pandoc --filter pandoc-latex-fontsize --pdf-engine lualatex --to beamer -o $@ $<
