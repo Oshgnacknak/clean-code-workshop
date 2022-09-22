@@ -95,10 +95,20 @@ ListItem<ListItem<T>> makeListOfListsInPlace(
   int row = 0;
 
   while (!llist.isEmpty()) {
-    row = removeSeperator(pred, llist, column, row);
+    row = removeSeparator(pred, llist, column, row);
     column = splitRow(pred, llist, res, row);
   }
 
   return res.head;
+}
+```
+
+# Da geht aber noch mehr...
+
+```{.java .small}
+ListItem<ListItem<T>> makeListOfListsInPlace(
+    ListItem<T> list,
+    PredicateWithException<T> pred) throws Exception {
+  return new ListIntoLinesSplitter<>(list).splitOn(pred);
 }
 ```
