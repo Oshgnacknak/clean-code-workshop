@@ -112,3 +112,7 @@ ListItem<ListItem<T>> makeListOfListsInPlace(
   return new ListIntoLinesSplitter<>(list).splitOn(pred);
 }
 ```
+
+# Namen
+
+![Quelle: `/r/ProgrammerHumor`](./oop-names.png){ width=65% }
