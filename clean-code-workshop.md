@@ -130,3 +130,86 @@ ListItem<ListItem<T>> makeListOfListsInPlace(
 # Kommentare
 
 ![Quelle: thecoderpedia.com/blog/programming-memes](comments-in-code.jpg){ width=50% }
+
+# Kommentare
+
+## Ein nutzloses Kommentar
+
+```java
+/*
+ * The setup function
+ */
+void setup() {
+    // ...
+}
+```
+
+## Das geht ohne sogar besser
+
+```java
+void restartGamestateAndRendering() {
+    // ...
+}
+```
+
+# Kommentare
+
+## Warum das?
+
+```{.java .small}
+////// Changelog //////
+//
+// Daniel Mangold: Add tests and rubrics for H4.2 (2022-06-15)
+// Daniel Mangold: Add tests and rubrics for H4.1 (2022-06-15)
+// Oshgnacknak: Don't pass predefined identifiers to evaluate, only to nextStep (2022-06-14)
+// Oshgnacknak: Hide ROOT and IDENTIFIERS behind getters (2022-06-13)
+// Daniel Mangold: Add tests for H3.3 (2022-06-14)
+// Daniel Mangold: Add tests for H3.2 (2022-06-13)
+// Daniel Mangold: Fix grader-info.json (2022-06-13)
+// Daniel Mangold: Add tests for H3.1 (2022-06-13)
+// Oshgnacknak: Merge branch 'master' into tests (2022-06-13)
+// Daniel Mangold: Fix module "grader" (2022-06-13)
+```
+
+## Es gibt `git log`
+
+```{.small}
+commit b58637c2d1f309aa28888512b21b35c47c8a40f4 (HEAD -> tests, origin/tests)
+Author: Daniel Mangold <mangold.daniel@protonmail.com>
+Date:   Thu Jun 16 17:43:29 2022 +0200
+
+    Add tests for H4.2
+
+commit 32053c8bd52f98572c307426be2ef19090df3f43
+Author: Daniel Mangold <mangold.daniel@protonmail.com>
+Date:   Thu Jun 16 17:35:29 2022 +0200
+
+    Add tests for H4.1
+```
+
+# Kommentare
+
+## Kommentiere nicht des Kommentars wegen
+
+```java
+/**
+ * Returns the Authors ID
+ *
+ * @return the Authors ID
+ */
+void getAuthorId() {
+    return authorId;
+}
+```
+
+# Kommentare
+
+## Niemals Code auskommentieren
+
+```java
+void sendMoney(Account reciever, BigDecimal amount) {
+    // logger.logTransaction(this, reciever, amount);
+    this.decreaseBalance(amount);
+    reciever.increaseBalance(amount);
+}
+```
