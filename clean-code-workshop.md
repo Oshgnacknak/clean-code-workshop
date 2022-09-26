@@ -213,3 +213,7 @@ void sendMoney(Account reciever, BigDecimal amount) {
     reciever.increaseBalance(amount);
 }
 ```
+
+# Formatierung
+
+![Quelle: `/r/ProgrammerHumor`](dank-formatting.png){ width=80% }
