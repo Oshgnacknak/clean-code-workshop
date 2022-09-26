@@ -126,3 +126,7 @@ ListItem<ListItem<T>> makeListOfListsInPlace(
 - Tun eine Sache (auf einem Level der Abstraktion)
 
 - Haben keine Nebeneffekte
+
+# Kommentare
+
+![Quelle: thecoderpedia.com/blog/programming-memes](comments-in-code.jpg){ width=50% }
