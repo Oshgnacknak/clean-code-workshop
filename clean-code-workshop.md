@@ -116,3 +116,13 @@ ListItem<ListItem<T>> makeListOfListsInPlace(
 # Namen
 
 ![Quelle: `/r/ProgrammerHumor`](./oop-names.png){ width=65% }
+
+# Funktionen
+
+- Sind kurz
+
+- Sind kürzer als das
+
+- Tun eine Sache (auf einem Level der Abstraktion)
+
+- Haben keine Nebeneffekte
