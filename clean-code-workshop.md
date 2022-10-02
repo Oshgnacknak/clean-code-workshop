@@ -217,3 +217,7 @@ void sendMoney(Account reciever, BigDecimal amount) {
 # Formatierung
 
 ![Quelle: `/r/ProgrammerHumor`](dank-formatting.png){ width=80% }
+
+# Error Handling
+
+![Quelle: `Imagur`](error-handling.png){ width=80% }
