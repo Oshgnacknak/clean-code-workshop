@@ -225,3 +225,23 @@ void sendMoney(Account reciever, BigDecimal amount) {
 # Unit Tests
 
 ![Quelle: `/r/ProgrammerHumor`](./testing-programs.jpg){ height=70% }
+
+# Klassen
+
+- Sind klein
+
+- Sind kleiner als das
+
+- SOLID Prinzipien
+
+# SOLID Prinzipien
+
+- **S**ingle Responsibility Principle
+
+- **O**pen/Closed Principle
+
+- **L**iskov’s Substitution Principle
+
+- **I**nterface Segregation Principle
+
+- **D**ependency Inversion Principle
