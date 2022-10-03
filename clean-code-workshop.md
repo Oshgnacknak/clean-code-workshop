@@ -245,3 +245,19 @@ void sendMoney(Account reciever, BigDecimal amount) {
 - **I**nterface Segregation Principle
 
 - **D**ependency Inversion Principle
+
+# Senk ju vor travalin wis clean code 
+
+::: columns
+
+:::: column
+![Quelle: `miro.medium.com`](./moores-law.jpeg){ height=90% }
+::::
+
+:::: column
+- Noch fragen?
+
+- Wenn nicht, dann Live TDD!
+::::
+
+:::
